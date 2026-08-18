@@ -1,0 +1,102 @@
+# ================================================
+# Operating System & Generic Junk Files
+# ================================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ================================================
+# Editor Temporary & Backup Files
+# ================================================
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Visual Studio Code
+*.code-workspace
+.history/
+
+# ================================================
+# Prerequisites & Dependency Files
+# ================================================
+*.d
+
+# ================================================
+# Object Files, Linker Outputs, Precompiled
+# Headers, Libraries, Shared Objects & Executables
+# ================================================
+*.o
+*.ko
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+*.cyclo
+
+# ================================================
+# Debug & Log Files
+# ================================================
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dwo
+st-link_gdbserver_log.txt
+
+# ================================================
+# Kernel Module Build Artifacts
+# ================================================
+*.mod
+*.mod.c
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+
+# ================================================
+# STM32CubeIDE / Eclipse Metadata & Settings
+# ================================================
+.metadata/
+.settings/
+*.launch
+
+# Local Developer Overrides (if any)
+.cproject.local
+.project.local
+
+# ================================================
+# Build Output Directories & Generated Makefiles
+# ================================================
+Debug/
+Release/
+[Dd]ebug/
+[Rr]elease/
+
+compile_commands.json
+objects.list
+objects.mk
+sources.mk
+subdir.mk
